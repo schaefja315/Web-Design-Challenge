@@ -1,69 +1,79 @@
-/* Navbar container */
+.text-cyan {
+  color: #008B8B;
+}
+
+.text-teal {
+  color: #2F4F4F;
+}
+
+.back-gray{
+  background: #F0FFF0;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.font-size{
+  font-size: 18px;
+  font-weight: 500;
+}
+
 .navbar {
-    overflow: hidden;
-    background-color: #333;
-    font-family: Arial;
-  }
-  
-  /* Links inside the navbar */
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* The dropdown container */
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  /* Dropdown button */
-  .dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-  }
-  
-  /* Add a red background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
-  }
-  
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+  padding: 0px 0px 0px 50px;
+}
+
+.navbar-brand{
+  font-size: 25px;
+  background-color: teal;
+  padding: 15px 15px 15px 15px;
+}
+
+a{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html, body{
+  padding: 0px;
+  margin: auto;
+  height: 100%;
+}
+
+.col-md-8{
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.col-md-4{
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.jumbotron{ 
+  background-color: white;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+.text-wrap{
+  float: left;
+  margin: 5px;
+  height: 150px;
+  width: auto;
+}
+
+h2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  color: teal
+}
+
+p{
+  background-color: white;
+}
+
+.bottom {
+  background-color:  teal;
+  height: 5px;
+  margin-top: 15px; 
+}
