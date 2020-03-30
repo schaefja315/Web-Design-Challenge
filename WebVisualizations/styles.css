@@ -19,7 +19,7 @@
   font-weight: 500;
 }
 
-.navbar {
+.navbar {                 
   padding: 0px 0px 0px 50px;
 }
 
@@ -31,12 +31,6 @@
 
 a{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-html, body{
-  padding: 0px;
-  margin: auto;
-  height: 100%;
 }
 
 .col-md-8{
@@ -70,6 +64,39 @@ h2{
 
 p{
   background-color: white;
+}
+
+table{
+  width: 100%;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+th{
+  background-color: white;
+  text-align: center;
+}
+
+td{
+  text-align: center;
+}
+
+#maxtemp{
+  border: 3px solid teal;
+}
+
+#windspeed{
+  border: 3px solid teal;
+}
+
+#cloudiness{
+  border: 3px solid teal;
+}
+
+#humidity{
+  border: 3px solid teal;
 }
 
 .bottom {
